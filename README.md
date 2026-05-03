@@ -1,28 +1,111 @@
-# Data Analytics in Sales Domain
+# 📊 Regional Sales Analysis & Dashboard
 
-## Overview
-This project focuses on applying data analytics techniques to the sales domain. The goal is to derive insights that can help improve sales performance and drive business strategies.
-
-## Excel Sheet
-- The Excel file provided in the repository is used in the project.
-
-## Files Included
-- Detailed reports
-- Code files
-- Documentation on analytics methodologies
-- Visualizations and dashboards
-
-## How to Contribute
-1. Star the repository if you find it useful.
-2. Leave a comment with your thoughts or questions.
-3. Share the project with others who might benefit from it.
-
-## Video
-Project Video: https://youtu.be/LOPnZclka0o
-
-## Contact
-For inquiries or collaboration opportunities, please reach out via GitHub.
+## 🔍 Overview
+This project analyzes multi-year regional sales data to identify revenue trends, profitability drivers, and underperforming segments. It combines Python-based exploratory data analysis (EDA) with an interactive Power BI dashboard to generate actionable business insights.
 
 ---
 
-Thank you for your support! Your engagement helps improve the project and make more resources available.
+## 🎯 Problem Statement
+Businesses often track sales but fail to understand:
+- Which regions drive actual profit (not just revenue)
+- Which products contribute most to growth
+- Where margins are weak despite high sales
+- How sales vary over time (seasonality)
+
+This project addresses these gaps using data-driven analysis.
+
+---
+
+## 📁 Dataset Details
+The dataset contains multi-year sales records with the following fields:
+
+- Order Date  
+- Region  
+- Product / Category  
+- Sales Revenue  
+- Profit  
+- Budget  
+
+### Data Files
+- `Regional Sales Dataset.xlsx` (raw dataset)  
+- `Sales_data(EDA Exported).csv` (cleaned dataset)  
+
+---
+
+## 🛠️ Tools & Technologies
+- Python (Pandas, NumPy, Matplotlib, Seaborn)  
+- Jupyter Notebook  
+- Power BI  
+- Microsoft Excel  
+
+---
+
+## 🔎 Analysis Performed
+
+### 1. Data Cleaning
+- Handled missing values  
+- Converted data types  
+- Removed inconsistencies  
+
+### 2. Exploratory Data Analysis (EDA)
+- Revenue and profit trends over time  
+- Region-wise performance  
+- Product/category contribution  
+- Budget vs actual comparison  
+
+### 3. Business Insights
+- Identified high-revenue vs high-profit regions  
+- Detected low-margin segments  
+- Analyzed seasonal trends  
+- Highlighted top-performing products  
+
+---
+
+## 📊 Power BI Dashboard Features
+
+- KPIs:
+  - Total Revenue  
+  - Total Profit  
+  - Profit Margin  
+
+- Filters:
+  - Region  
+  - Product / Category  
+  - Time (Year/Month)  
+
+- Visualizations:
+  - Sales trends  
+  - Region-wise comparison  
+  - Product performance  
+  - Budget vs actual  
+
+---
+
+## 💡 Key Insights
+
+- A small number of products contribute a large share of revenue  
+- Some regions have high sales but lower profit margins  
+- Sales show clear seasonal trends  
+- Certain segments consistently underperform  
+
+---
+
+## 📈 Business Impact
+
+- Helps identify profitable segments  
+- Supports pricing and promotion decisions  
+- Enables region-specific strategy  
+- Improves overall sales visibility  
+
+---
+
+## 🚀 Future Improvements
+
+- Sales forecasting using time series models  
+- SQL-based data pipeline  
+- Customer segmentation  
+- Automated dashboard updates  
+
+---
+
+## 📂 Project Structure
